@@ -39,7 +39,7 @@ $(document).ready(function () {
     ],
   });
 
-  $('.menu-burger').click(function (event)) {
-    $('.menu-burger,.nav').toggleClass('active');
-  };
+  // $('.menu-burger').click(function (event)) {
+  //   $('.menu-burger,.nav').toggleClass('active');
+  // };
 });
