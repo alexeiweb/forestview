@@ -8,9 +8,38 @@
 //     nav: true,
 //   });
 // });
-$(document).ready(function() {
+
+$(document).ready(function () {
+  $('.slider').slick({
+    centerMode: true,
+    centerPadding: '40px',
+    slidesToShow: 3,
+    easing: 'ease',
+    variableWidth: true,
+
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1,
+        },
+      },
+    ],
+  });
+
   $('.menu-burger').click(function (event)) {
     $('.menu-burger,.nav').toggleClass('active');
-});
-
+  };
 });
