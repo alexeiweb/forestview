@@ -74,8 +74,13 @@ a:hover {
 }
 
 .main {
+<<<<<<< HEAD
   padding-top: 60px;
   padding-bottom: 300px;
+=======
+  padding-top: 6rem;
+  padding-bottom: 30rem;
+>>>>>>> 1bc1588227d9ff3cf012971e75b8deef475bff4e
   background: url(../img/bg.jpg) center no-repeat;
   background-size: cover;
   color: #fff;
