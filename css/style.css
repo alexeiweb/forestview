@@ -74,13 +74,8 @@ a:hover {
 }
 
 .main {
-<<<<<<< HEAD
   padding-top: 60px;
   padding-bottom: 300px;
-=======
-  padding-top: 6rem;
-  padding-bottom: 30rem;
->>>>>>> 1bc1588227d9ff3cf012971e75b8deef475bff4e
   background: url(../img/bg.jpg) center no-repeat;
   background-size: cover;
   color: #fff;
@@ -1033,6 +1028,98 @@ ul li input[type='checkbox']:checked ~ i:after {
   font-weight: 400;
   font-size: 1.5rem;
   color: #2937c4;
+}
+
+.drive {
+}
+
+.drive__content {
+  max-width: 806px;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+
+.tabs {
+}
+.tabs__items {
+  display: flex;
+  color: #a7a7a7;
+}
+
+.tabs__item {
+  flex: 0 1 25%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #a7a7a7;
+}
+
+.tabs__item span {
+  position: relative;
+  z-index: 2;
+}
+
+.tabs__body {
+}
+
+.tab__block {
+  position: relative;
+  padding: 20px 30px;
+  background-color: #b7a777;
+  display: none;
+  color: #fff;
+}
+
+.tab__block:before {
+  content: '';
+  height: 60px;
+  width: 25%;
+  position: absolute;
+  top: -55px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.tab__block:nth-child(1) {
+  background-color: #b7a777;
+}
+
+.tab__block:nth-child(1):before {
+  background-color: #b7a777;
+  left: 0;
+}
+
+.tab__block:nth-child(2) {
+  background-color: #b7a777;
+}
+
+.tab__block:nth-child(2):before {
+  background-color: #b7a777;
+  left: 25%;
+}
+
+.tab__block:nth-child(3) {
+  background-color: #b7a777;
+}
+
+.tab__block:nth-child(3):before {
+  background-color: #b7a777;
+  left: 50%;
+}
+
+.tab__block:nth-child(4) {
+  background-color: #b7a777;
+}
+
+.tab__block:nth-child(4):before {
+  background-color: #b7a777;
+  right: 0;
+}
+
+.tab__block:target {
+  display: block;
 }
 
 .yandex-3 {
