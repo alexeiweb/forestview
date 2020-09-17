@@ -18,7 +18,7 @@ html {
 }
 
 section {
-  padding: 9rem 0;
+  padding: 90px 0;
 }
 
 .container {
@@ -61,8 +61,8 @@ a:hover {
 }
 
 .button-solid {
-  margin-top: 5rem;
-  padding: 2.5rem 2.7rem;
+  margin-top: 50px;
+  padding: 25px 27px;
   color: #fff;
   background: #43b13a;
   font-size: 1.5rem;
@@ -96,7 +96,7 @@ a:hover {
 .main-title {
   font-size: 2.2rem;
   font-weight: 500;
-  margin-bottom: 4.6rem;
+  margin-bottom: 46px;
 }
 
 .main-subtitle {
@@ -107,13 +107,13 @@ a:hover {
 .menu {
   display: flex;
   flex-wrap: wrap;
-  height: 6rem;
+  height: 60px;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo {
-  height: 6rem;
+  height: 60px;
   display: table-cell;
 }
 
@@ -132,8 +132,8 @@ a:hover {
   color: #fff;
   font-weight: 500;
   font-size: 1.3rem;
-  height: 7rem;
-  line-height: 7rem;
+  height: 70px;
+  line-height: 70px;
   text-transform: uppercase;
   margin-left: 30px;
   margin-right: auto;
@@ -829,10 +829,11 @@ ul li input[type='checkbox']:checked ~ i:after {
   margin-right: 15px;
 }
 
-/* .prices-btn:active {
+.active {
   border: 1px solid #43b13a;
   color: #43b13a;
-} */
+}
+
 .prices-btn:last-child {
   margin-right: 0;
 }
@@ -897,6 +898,7 @@ ul li input[type='checkbox']:checked ~ i:after {
 .documents-subtitle {
   font-size: 1.9rem;
   text-align: center;
+  color: #959595;
 }
 
 .documents-images {
@@ -913,12 +915,12 @@ ul li input[type='checkbox']:checked ~ i:after {
 }
 
 .project-card {
+  width: 370px;
   background-color: #fff;
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.36);
   border-radius: 3px;
   margin-bottom: 30px;
-
-  padding-bottom: 30px;
+  padding-bottom: 25px;
   /* padding: 30px 25px; */
 }
 
@@ -928,7 +930,7 @@ ul li input[type='checkbox']:checked ~ i:after {
 
 .project-card-image {
   width: 370px;
-  height: 452px;
+  height: auto;
 }
 
 .project-title {
@@ -984,10 +986,10 @@ ul li input[type='checkbox']:checked ~ i:after {
 .event-card {
   width: 360px;
   background-color: #fff;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.36);
   border-radius: 2px;
   margin-bottom: 30px;
-  padding: 35px 25px;
+  padding: 30px 25px;
   letter-spacing: 0.02rem;
 }
 
@@ -1016,17 +1018,21 @@ ul li input[type='checkbox']:checked ~ i:after {
   max-width: 200px;
   font-weight: 600;
   font-size: 1.6rem;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
 .event-card-text {
   font-weight: 400;
   font-size: 1.5rem;
+  letter-spacing: 0.05em;
+  line-height: 18px;
 }
 
 .event-card-link {
   font-weight: 400;
   font-size: 1.5rem;
+  line-height: 34px;
   color: #2937c4;
 }
 
@@ -1159,6 +1165,7 @@ ul li input[type='checkbox']:checked ~ i:after {
 .attention-title {
   font-weight: 500;
   font-size: 1.6rem;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
@@ -1193,7 +1200,7 @@ ul li input[type='checkbox']:checked ~ i:after {
   font-size: 1.3rem;
   width: 340px;
   border: none;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -1231,7 +1238,7 @@ ul li input[type='checkbox']:checked ~ i:after {
 }
 
 .footer-text {
-  margin-top: 5rem;
+  margin-top: 50px;
   font-weight: 400;
   font-size: 1rem;
   text-transform: none;
@@ -1247,7 +1254,7 @@ ul li input[type='checkbox']:checked ~ i:after {
     padding-bottom: 150px;
   }
   .menu {
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .phone-link {
@@ -1258,6 +1265,18 @@ ul li input[type='checkbox']:checked ~ i:after {
   .menu-btn {
     padding: 0.9rem 2.1rem;
     font-size: 1rem;
+  }
+
+  .progress-region {
+    justify-content: space-evenly;
+  }
+
+  .prices-cards {
+    justify-content: space-around;
+  }
+
+  .documents-images {
+    justify-content: space-evenly;
   }
 }
 
@@ -1271,7 +1290,22 @@ ul li input[type='checkbox']:checked ~ i:after {
   .menu {
     display: flex;
     flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
   }
+
+  .nav {
+    justify-content: space-around;
+  }
+
+  .nav-link:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .menu-btn {
+    margin-left: 10px;
+  }
+
   .logo-image {
     order: 0;
   }
@@ -1288,14 +1322,6 @@ ul li input[type='checkbox']:checked ~ i:after {
     order: 2;
   }
 
-  .about-us {
-    margin-bottom: 40px;
-  }
-
-  .pluses-pluses {
-    margin-left: 30px;
-  }
-
   .pluses-left {
     width: 95%;
   }
@@ -1304,11 +1330,47 @@ ul li input[type='checkbox']:checked ~ i:after {
     display: none;
   }
 
+  .about-us {
+    margin-bottom: 0;
+  }
+
+  /* .about-title {
+    order: 0;
+  }
+  .about-image {
+    margin-bottom: 40px;
+    order: 1;
+  }
+
+  .about-us-text:nth-child(2) {
+    order: 2;
+  }
+
+  .about-us-text:nth-child(3) {
+    order: 3;
+  }
+
+  .about-us-text:nth-child(4) {
+    order: 4;
+    margin-bottom: 0;
+  } */
+
+  .about-events {
+    flex-direction: column;
+  }
+
+  .feedback-card {
+    justify-content: start;
+  }
+  .pluses-pluses {
+    margin-left: 30px;
+  }
+
   .special-card {
   }
 }
 @media (max-width: 767px) {
-  .nav {
+  /* .nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -1319,6 +1381,10 @@ ul li input[type='checkbox']:checked ~ i:after {
     flex-direction: column;
     align-content: center;
     z-index: 0;
+  } */
+
+  .nav {
+    display: none;
   }
 
   .nav-link {
@@ -1367,6 +1433,38 @@ ul li input[type='checkbox']:checked ~ i:after {
   .merit-cards {
     justify-content: center;
   }
+
+  .about-image {
+    display: none;
+  }
+  .special-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .special-card {
+    margin-right: 0;
+  }
+
+  .project-cards {
+    justify-content: center;
+  }
+
+  .project-card {
+    margin-bottom: 50px;
+  }
+  .project-card:nth-child(3) {
+    margin-bottom: 0;
+  }
+
+  .more {
+    justify-content: start;
+    margin-left: 100px;
+  }
+
+  .attention-image {
+    display: none;
+  }
 }
 
 @media (max-width: 575px) {
@@ -1375,6 +1473,10 @@ ul li input[type='checkbox']:checked ~ i:after {
   }
   .main-content h1 {
     font-size: 34px;
+  }
+  .main-h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
   }
   .main-title {
     font-size: 20px;
